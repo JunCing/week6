@@ -1,0 +1,51 @@
+.subscription{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    @include media-breakpoint-up(lg){
+        padding-top: 100px;
+        padding-bottom: 100px;
+  
+      }
+}
+
+.subscription-card{
+    h3{
+        color: $gray-600;
+    }
+    li{
+        color: $gray-600;
+        font-weight: bold;
+    }
+    span{
+        color: $gray-600;
+    }
+
+}
+
+
+.plice-content{
+    span{
+        letter-spacing: 10%;
+    }
+}
+
+.subscription-card{
+    border-radius: 12px;
+    &:hover{
+        border:solid 1px $success;
+        li{
+
+            color: #000;
+        }
+    }
+    &:active{
+        border:solid 1px $success;
+        color: $gray-600;
+    }
+    &:focus{
+        
+        border:solid 1px $success;
+        color: $gray-600;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.nav-search-w{
+    height: 48px;
+    @include media-breakpoint-up(xl) {
+       width: 276px;
+        
+      }
+    
+
+    
+
+}
+.nav-login-w{
+    @include media-breakpoint-down(lg) { 
+        width: 100%;
+      }
+    
+}
